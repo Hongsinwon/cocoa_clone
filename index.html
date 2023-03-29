@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to COCOA talk</title>
+</head>
+<body>
+    <!-- APP BAR -->
+    <div id='status-bar'>
+        <div class="status-bar_column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar_column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar_column">
+            <span>l00%</span>
+            <i class="fa-solid fa-battery-full"></i> 
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- BODY -->
+    <header class="welcome-header">
+        <h1 class="welcome-header_title fa-lg">환영합니다. CoCoA Talk</h1>
+        <p class="welcome-header_text">로그인을 위해서 핸드폰 번호 또는 이메일을 입력해주세요.</p>
+    </header>
+
+    <form id="login-form">
+        <input type="text" placeholder="핸드폰 번호 또는 이메일을 입력해주세요."/>
+        <input type="password" placeholder="비밀번호를 입력해주세요."/>
+        <input type="submit" value="로그인" />
+        <a href="#">비밀번호를 잃어버리셨나요?</a>
+    </form>
+
+   
+    <script src="https://kit.fontawesome.com/96b578fe42.js" crossorigin="anonymous"></script>
+</body>
+</html>
