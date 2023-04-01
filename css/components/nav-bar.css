@@ -1,3 +1,49 @@
-.nav {padding: 20px 40px; background-color: #f9f9f9;}
-.nav_list { display: flex; justify-content: space-between;}
-.nav_list span { display: none;;}
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border-top: 1px solid #eee;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_list .nav_btn {
+  position: relative;
+}
+
+.nav_list span.none {
+  display: none;
+}
+
+.nav_list span.chat-num {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  background: tomato;
+  border-radius: 50%;
+}
+
+.nav_list span.new-ellipsis {
+  position: absolute;
+  top: 0px;
+  right: -5px;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: tomato;
+}
